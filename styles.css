@@ -4,8 +4,11 @@
     font-family: sans-serif;
     box-sizing: border-box;
 }
+body{
+    overflow-x: hidden;
+}
 #container{
-    height: 100vh;
+    height:100vh;
     width: 100%;
     position: relative;
     top: 0;
@@ -20,6 +23,7 @@
     z-index: 997;
     font-weight: bold;
     color: #165397;
+    font-family: fantasy;
 }
 #navbar{
     height: 90px;
@@ -178,14 +182,7 @@ image img:hover{
     border-radius: 10px;
     display: flex;
 }
-.card img{
-    width: 25.3pc;
-    position: absolute;
-    right: 32rem;
-}
-.description img{
-    width: 10pc;
-}
+
 
 .name{
     padding-top: 10px;
@@ -193,4 +190,294 @@ image img:hover{
     font-size: 20px;
     font-family: bold;
     font-weight: 500;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+.hero h3{
+    padding-top: 4rem;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span{
+    color: rgb(212,171,14);
+}
+.ptag{
+    display: flex;
+    font-size: 20px;
+    padding-top: 3rem;
+}
+.ptag p{
+    font-family: bold;
+    font-weight: 300;
+}
+h4{
+    padding-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'poppins' sans-serif;
+}
+h5{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 30px;
+}
+.contentment{
+    width: 350px;
+    height: 500px;
+}
+.card{
+    height: 100%;
+    width: 100%;
+}
+.front,
+.back{
+    height: 80%;
+    width: 100%;
+}
+.front{
+    background-image: url(arrow1.png);
+}
+.mine{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wrap{
+    width:1000px;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition:0.4s;
+    width: 300px;
+    background: #165397;
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin: 10px;
+
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.6);
+}
+.wrap img{
+    width: 5rem;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7rem;
+}
+.image img{
+    width: 10rem;
+}
+.smart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.smart img{
+    width: 18pc;
+    padding-top: 7rem;
+}
+.card p{
+    padding-top: 5rem;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 900;
+}
+.border{
+    background-color:rgb(152, 152, 152);
+    border:3rem ;
+    margin-top: 6.2rem;
+}
+
+.main{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 7rem;
+   flex-wrap: nowrap;
+}
+.main h3{
+    padding-bottom: 15rem;
+    font-size: 35px;
+}
+
+.best p{
+    font-size: 10px;
+}
+.imh img{
+    margin-left:5rem;
+}
+.main .best p{
+    display: inline-block;
+}
+.second img{
+    width: 30pc;
+}
+.second .day{
+    display: flex;
+    align-items: center;
+    margin-left: 15rem;
+    padding-top: 3rem;
+    gap: 3rem;
+    flex-flow:wrap-reverse;
+}
+.second h3{
+    font-size: 35px;
+    padding-bottom: 10rem;
+}
+.moses{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    font-size: 30px;
+}
+.cardd{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+    transition:0.4s;
+    width: 300px;
+    background:rgb(238,238,238);
+    text-align: center;
+    font-size: 16px;
+    font-family: sans-serif;
+    float: left;
+    margin-left:3rem;
+    margin-top: 3rem;
+}
+.contentmentt{
+    width: 330px;
+    height: 825;
+}
+.cardd .contentmentt img{
+    padding-top: 3rem;
+}
+.cardd .contentmentt h6{
+    font-size: 19px;
+    padding-top: 2rem;
+}
+.cardd .contentmentt hr{
+    width: 18.8rem;
+}
+hr{
+    margin-top: 2rem;
+}
+.cardd .contentmentt button{
+    padding: 0.5rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.cardd .contentmentt button:hover{
+    background-color: #165397;
+}
+.football{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+    padding-top: 5rem;
+}
+.football h3{
+    font-size: 35px;
+    margin-bottom: 1.5rem;
+}
+.style{
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    
+}
+.benefits-wrap {
+    background-color: #272729;
+    padding: 19px 30px;
+    border-bottom: 1px solid #525458;
+    color: #fff;
+    width: 25pc;
+    height: 15pc;
+}
+
+.major{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+}
+.major .benefits-wrap h4{
+    float: left;
+}
+.major .benefits-wrap button{
+    margin-right: 10pc;
+}
+.major .benefits-wrap p{
+    padding-top: 5rem;
+}
+.stylee{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    padding-top: 1rem;
+}
+.stylee .benefits-wrap h4{
+    float: left;
+}
+.stylee .benefits-wrap button{
+    margin-right: 10pc;
+}
+.stylee .benefits-wrap p{
+    padding-top: 5rem;
+}
+.api{
+    padding-top: 5rem;
+    margin-left: 5rem;
+}
+.api h1{
+    font-size: 15px;
+    padding-top: 2rem;
+}
+.api button:hover{
+    background-color:#fff;
+}
+.ppp{
+    float: right;
+}
+.ppp img{
+    width: 80px;
+    position: absolute;
+    right: 10pc;
+    padding-top: 1rem;
+}
+.alta img{
+    float: right;
+    width: 30pc;
+    position:relative;
+}
+.alta{
+    margin-bottom: 5rem;
 }
